@@ -35,3 +35,11 @@ img {
     color: #ff79c6;
     margin-top: 0px
 }
+video {
+    border: 10px solid #bd93f9;
+    border-radius: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+}
