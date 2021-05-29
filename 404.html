@@ -11,22 +11,35 @@
                 background-color: #282a36;
             }
 
+            .message {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+
             h1 {
                 font-family: 'Jost', sans-serif;
                 font-weight: 500;
-                font-size: 24pt;
+                font-size: 42pt;
                 text-align: center;
-                margin: 45vh auto;
                 color: #f8f8f2;
-                position: relative;
             }
 
-            a {
+            h2, a {
+                font-family: 'Roboto', sans-serif;
+                font-weight: 200;
+                font-size: 24pt;
+                text-align: center;
+                margin-top: -60px;
                 color: #8be9fd;
-                font-style: italic;
             }
+
         </style>
     </head>
     <body>
-        <h1>404. Return to the <a href="/">home page</a>.</h1>
+        <section class="message">
+            <div class="message__top"><h1>Page not found</h1></div>
+            <div class="message__bottom"><h2><a href="/">Return</a></h2></div>
+        </section>
     </body>
